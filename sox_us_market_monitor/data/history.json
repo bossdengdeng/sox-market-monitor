@@ -1,0 +1,93 @@
+{
+  "metric": "SOX 30 constituents full-company market cap / total market cap of all U.S.-listed companies",
+  "method": "Estimated daily series. Numerator uses current/full company market caps and adjusted-price backcasting. Denominator uses a total-U.S.-market-cap anchor and VTI as a daily proxy.",
+  "anchor_date": "2026-06-18",
+  "anchor_us_market_cap_usd": 74000000000000,
+  "updated_at": "2026-06-18T21:30:00Z",
+  "rows": [
+    {
+      "date": "2026-06-01",
+      "sox_market_cap_trn": 14.93,
+      "us_market_cap_trn": 74.98,
+      "share_pct": 19.92
+    },
+    {
+      "date": "2026-06-02",
+      "sox_market_cap_trn": 15.81,
+      "us_market_cap_trn": 75.08,
+      "share_pct": 21.06
+    },
+    {
+      "date": "2026-06-03",
+      "sox_market_cap_trn": 16.03,
+      "us_market_cap_trn": 74.52,
+      "share_pct": 21.51
+    },
+    {
+      "date": "2026-06-04",
+      "sox_market_cap_trn": 15.69,
+      "us_market_cap_trn": 74.83,
+      "share_pct": 20.96
+    },
+    {
+      "date": "2026-06-05",
+      "sox_market_cap_trn": 14.08,
+      "us_market_cap_trn": 72.85,
+      "share_pct": 19.32
+    },
+    {
+      "date": "2026-06-08",
+      "sox_market_cap_trn": 14.87,
+      "us_market_cap_trn": 73.06,
+      "share_pct": 20.35
+    },
+    {
+      "date": "2026-06-09",
+      "sox_market_cap_trn": 14.58,
+      "us_market_cap_trn": 72.88,
+      "share_pct": 20.01
+    },
+    {
+      "date": "2026-06-10",
+      "sox_market_cap_trn": 14.06,
+      "us_market_cap_trn": 71.7,
+      "share_pct": 19.61
+    },
+    {
+      "date": "2026-06-11",
+      "sox_market_cap_trn": 15.17,
+      "us_market_cap_trn": 72.95,
+      "share_pct": 20.8
+    },
+    {
+      "date": "2026-06-12",
+      "sox_market_cap_trn": 15.4,
+      "us_market_cap_trn": 73.32,
+      "share_pct": 21.01
+    },
+    {
+      "date": "2026-06-15",
+      "sox_market_cap_trn": 16.24,
+      "us_market_cap_trn": 74.53,
+      "share_pct": 21.79
+    },
+    {
+      "date": "2026-06-16",
+      "sox_market_cap_trn": 15.31,
+      "us_market_cap_trn": 74.11,
+      "share_pct": 20.66
+    },
+    {
+      "date": "2026-06-17",
+      "sox_market_cap_trn": 15.52,
+      "us_market_cap_trn": 73.21,
+      "share_pct": 21.21
+    },
+    {
+      "date": "2026-06-18",
+      "sox_market_cap_trn": 16.52,
+      "us_market_cap_trn": 74.0,
+      "share_pct": 22.32
+    }
+  ]
+}

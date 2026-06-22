@@ -1,0 +1,5 @@
+SOX_TICKERS = [
+    "NVDA","AVGO","TSM","ASML","AMD","MU","MRVL","INTC","AMAT","LRCX",
+    "KLAC","QCOM","TXN","ADI","NXPI","MCHP","ON","MPWR","ARM","ALAB",
+    "TER","COHR","CRDO","GFS","SWKS","QRVO","LSCC","MTSI","ENTG","AMKR"
+]

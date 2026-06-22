@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SOX / 美国股市市值监控</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <style>
+    :root { --bg:#0b1020; --card:#121a2e; --muted:#95a2bd; --text:#f5f7fb; --line:#26314e; --accent:#69a7ff; --good:#55d6a2; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background:linear-gradient(180deg,#09101f,#0d1425); color:var(--text); }
+    .wrap { max-width:1180px; margin:auto; padding:30px 20px 56px; }
+    header { display:flex; justify-content:space-between; gap:20px; align-items:flex-start; margin-bottom:24px; }
+    h1 { font-size:30px; margin:0 0 8px; letter-spacing:-.5px; }
+    .sub { color:var(--muted); font-size:14px; line-height:1.6; max-width:760px; }
+    .badge { border:1px solid var(--line); background:#111a2d; padding:9px 12px; border-radius:999px; font-size:13px; color:var(--good); white-space:nowrap; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
+    .card { background:rgba(18,26,46,.92); border:1px solid var(--line); border-radius:16px; padding:18px; box-shadow:0 10px 30px rgba(0,0,0,.18); }
+    .k-label { color:var(--muted); font-size:13px; margin-bottom:10px; }
+    .k-value { font-size:32px; font-weight:750; letter-spacing:-.8px; }
+    .k-small { margin-top:8px; font-size:12px; color:var(--muted); }
+    .chart-card { margin-top:14px; padding:20px; }
+    .chart-head { display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; gap:10px; }
+    .chart-title { font-size:17px; font-weight:650; }
+    button { background:#18243d; color:var(--text); border:1px solid var(--line); border-radius:9px; padding:8px 11px; cursor:pointer; }
+    button:hover { border-color:#44618e; }
+    .table-card { margin-top:14px; overflow:auto; }
+    table { width:100%; border-collapse:collapse; font-size:13px; }
+    th,td { padding:12px 10px; border-bottom:1px solid var(--line); text-align:right; white-space:nowrap; }
+    th:first-child,td:first-child { text-align:left; }
+    th { color:var(--muted); font-weight:550; }
+    .note { color:var(--muted); font-size:12px; line-height:1.65; margin-top:16px; }
+    .error { color:#ff9292; display:none; margin-bottom:12px; }
+    @media(max-width:760px){ .grid{grid-template-columns:1fr;} header{display:block;} .badge{display:inline-block;margin-top:12px;} h1{font-size:25px;} }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>SOX / 美国股市市值监控</h1>
+      <div class="sub">
+        指标口径：费城半导体指数（SOX）30只成分股的完整公司市值合计 ÷ 所有美国交易所上市公司的总市值。
+        数据为一致方法下的日度估算，并非交易所官方日度统计。
+      </div>
+    </div>
+    <div class="badge" id="status">读取数据中</div>
+  </header>
+
+  <div id="error" class="error"></div>
+
+  <section class="grid">
+    <div class="card">
+      <div class="k-label">最新SOX占比</div>
+      <div class="k-value" id="latestShare">—</div>
+      <div class="k-small" id="latestDate">—</div>
+    </div>
+    <div class="card">
+      <div class="k-label">SOX成分股完整市值</div>
+      <div class="k-value" id="latestSox">—</div>
+      <div class="k-small">30只成分股合计</div>
+    </div>
+    <div class="card">
+      <div class="k-label">全美上市公司总市值</div>
+      <div class="k-value" id="latestUs">—</div>
+      <div class="k-small">以总市场锚点和VTI变化估算</div>
+    </div>
+  </section>
+
+  <section class="card chart-card">
+    <div class="chart-head">
+      <div class="chart-title">SOX占全美上市公司市值比例</div>
+      <button id="download">下载CSV</button>
+    </div>
+    <canvas id="shareChart" height="100"></canvas>
+  </section>
+
+  <section class="card chart-card">
+    <div class="chart-title">分子与分母市值</div>
+    <canvas id="capChart" height="100"></canvas>
+  </section>
+
+  <section class="card table-card">
+    <table>
+      <thead><tr><th>日期</th><th>SOX市值</th><th>全美总市值</th><th>占比</th></tr></thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </section>
+
+  <div class="note">
+    自动更新：GitHub Actions在每个美国工作日收盘后运行。由于免费数据源不提供“全美所有上市公司精确日度总市值”，
+    分母使用设定锚点并按VTI变动估算；海外ADR按完整公司市值计入分子。该指标适合趋势监控，不是审计或官方指数数据。
+  </div>
+</div>
+
+<script>
+let rows = [];
+const fmtT = v => `$${Number(v).toFixed(2)}T`;
+const fmtP = v => `${Number(v).toFixed(2)}%`;
+
+async function loadData(){
+  try{
+    const res = await fetch(`data/history.json?v=${Date.now()}`);
+    if(!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    rows = data.rows || [];
+    if(!rows.length) throw new Error("数据为空");
+    render(data);
+  }catch(e){
+    document.getElementById("error").style.display="block";
+    document.getElementById("error").textContent=`无法读取数据：${e.message}`;
+    document.getElementById("status").textContent="更新失败";
+  }
+}
+function render(data){
+  const latest = rows[rows.length-1];
+  document.getElementById("latestShare").textContent=fmtP(latest.share_pct);
+  document.getElementById("latestSox").textContent=fmtT(latest.sox_market_cap_trn);
+  document.getElementById("latestUs").textContent=fmtT(latest.us_market_cap_trn);
+  document.getElementById("latestDate").textContent=`截至 ${latest.date} 收盘`;
+  document.getElementById("status").textContent=`已更新 · ${latest.date}`;
+
+  document.getElementById("tbody").innerHTML=[...rows].reverse().map(r =>
+    `<tr><td>${r.date}</td><td>${fmtT(r.sox_market_cap_trn)}</td><td>${fmtT(r.us_market_cap_trn)}</td><td>${fmtP(r.share_pct)}</td></tr>`
+  ).join("");
+
+  const common = {responsive:true, interaction:{mode:"index",intersect:false}, plugins:{legend:{labels:{color:"#c7d0e2"}}}, scales:{x:{ticks:{color:"#95a2bd"},grid:{color:"#1e2942"}},y:{ticks:{color:"#95a2bd"},grid:{color:"#1e2942"}}}};
+  new Chart(document.getElementById("shareChart"), {type:"line", data:{labels:rows.map(r=>r.date),datasets:[{label:"SOX占比（%）",data:rows.map(r=>r.share_pct),borderColor:"#69a7ff",backgroundColor:"rgba(105,167,255,.15)",fill:true,tension:.25,pointRadius:2}]}, options:common});
+  new Chart(document.getElementById("capChart"), {type:"line", data:{labels:rows.map(r=>r.date),datasets:[
+    {label:"SOX市值（万亿美元）",data:rows.map(r=>r.sox_market_cap_trn),borderColor:"#55d6a2",tension:.25,pointRadius:2},
+    {label:"全美总市值（万亿美元）",data:rows.map(r=>r.us_market_cap_trn),borderColor:"#c28cff",tension:.25,pointRadius:2}
+  ]}, options:common});
+}
+
+document.getElementById("download").addEventListener("click",()=>{
+  const lines=[["date","sox_market_cap_trn","us_market_cap_trn","share_pct"],...rows.map(r=>[r.date,r.sox_market_cap_trn,r.us_market_cap_trn,r.share_pct])];
+  const blob=new Blob([lines.map(x=>x.join(",")).join("\n")],{type:"text/csv"});
+  const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="sox_us_market_share.csv"; a.click();
+});
+loadData();
+</script>
+</body>
+</html>
