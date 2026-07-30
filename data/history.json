@@ -36,11 +36,11 @@
     "ENTG",
     "AMKR"
   ],
-  "updated_at": "2026-07-29T23:30:39.267856+00:00",
+  "updated_at": "2026-07-30T23:33:19.171256+00:00",
   "rows": [
     {
       "date": "2026-01-02",
-      "sox_market_cap_trn": 10.0021,
+      "sox_market_cap_trn": 10.002,
       "us_market_cap_trn": 67.0537,
       "share_pct": 14.9165
     },
@@ -48,43 +48,43 @@
       "date": "2026-01-05",
       "sox_market_cap_trn": 10.0439,
       "us_market_cap_trn": 67.5582,
-      "share_pct": 14.8671
+      "share_pct": 14.867
     },
     {
       "date": "2026-01-06",
-      "sox_market_cap_trn": 10.1238,
+      "sox_market_cap_trn": 10.1237,
       "us_market_cap_trn": 68.0307,
       "share_pct": 14.8811
     },
     {
       "date": "2026-01-07",
-      "sox_market_cap_trn": 10.103,
+      "sox_market_cap_trn": 10.1029,
       "us_market_cap_trn": 67.7994,
-      "share_pct": 14.9013
+      "share_pct": 14.9012
     },
     {
       "date": "2026-01-08",
       "sox_market_cap_trn": 9.9057,
       "us_market_cap_trn": 67.8174,
-      "share_pct": 14.6065
+      "share_pct": 14.6064
     },
     {
       "date": "2026-01-09",
       "sox_market_cap_trn": 10.0931,
       "us_market_cap_trn": 68.268,
-      "share_pct": 14.7846
+      "share_pct": 14.7845
     },
     {
       "date": "2026-01-12",
       "sox_market_cap_trn": 10.1691,
       "us_market_cap_trn": 68.3936,
-      "share_pct": 14.8686
+      "share_pct": 14.8685
     },
     {
       "date": "2026-01-13",
-      "sox_market_cap_trn": 10.2023,
+      "sox_market_cap_trn": 10.2022,
       "us_market_cap_trn": 68.256,
-      "share_pct": 14.9471
+      "share_pct": 14.947
     },
     {
       "date": "2026-01-14",
@@ -94,33 +94,33 @@
     },
     {
       "date": "2026-01-15",
-      "sox_market_cap_trn": 10.2808,
+      "sox_market_cap_trn": 10.2807,
       "us_market_cap_trn": 68.1982,
-      "share_pct": 15.0749
+      "share_pct": 15.0748
     },
     {
       "date": "2026-01-16",
       "sox_market_cap_trn": 10.328,
       "us_market_cap_trn": 68.1583,
-      "share_pct": 15.153
+      "share_pct": 15.1529
     },
     {
       "date": "2026-01-20",
       "sox_market_cap_trn": 9.9322,
       "us_market_cap_trn": 66.8145,
-      "share_pct": 14.8654
+      "share_pct": 14.8653
     },
     {
       "date": "2026-01-21",
       "sox_market_cap_trn": 10.1185,
       "us_market_cap_trn": 67.606,
-      "share_pct": 14.9669
+      "share_pct": 14.9668
     },
     {
       "date": "2026-01-22",
       "sox_market_cap_trn": 10.1497,
       "us_market_cap_trn": 67.9629,
-      "share_pct": 14.9342
+      "share_pct": 14.9341
     },
     {
       "date": "2026-01-23",
@@ -130,37 +130,37 @@
     },
     {
       "date": "2026-01-26",
-      "sox_market_cap_trn": 10.1525,
+      "sox_market_cap_trn": 10.1524,
       "us_market_cap_trn": 68.1942,
-      "share_pct": 14.8876
+      "share_pct": 14.8875
     },
     {
       "date": "2026-01-27",
       "sox_market_cap_trn": 10.3403,
       "us_market_cap_trn": 68.4414,
-      "share_pct": 15.1083
+      "share_pct": 15.1082
     },
     {
       "date": "2026-01-28",
-      "sox_market_cap_trn": 10.4755,
+      "sox_market_cap_trn": 10.4754,
       "us_market_cap_trn": 68.4035,
-      "share_pct": 15.3142
+      "share_pct": 15.3141
     },
     {
       "date": "2026-01-29",
-      "sox_market_cap_trn": 10.5002,
+      "sox_market_cap_trn": 10.5001,
       "us_market_cap_trn": 68.246,
       "share_pct": 15.3857
     },
     {
       "date": "2026-01-30",
-      "sox_market_cap_trn": 10.3109,
+      "sox_market_cap_trn": 10.3108,
       "us_market_cap_trn": 67.9031,
-      "share_pct": 15.1847
+      "share_pct": 15.1846
     },
     {
       "date": "2026-02-02",
-      "sox_market_cap_trn": 10.278,
+      "sox_market_cap_trn": 10.2779,
       "us_market_cap_trn": 68.2839,
       "share_pct": 15.0518
     },
@@ -174,7 +174,7 @@
       "date": "2026-02-04",
       "sox_market_cap_trn": 9.6729,
       "us_market_cap_trn": 67.4405,
-      "share_pct": 14.3429
+      "share_pct": 14.3428
     },
     {
       "date": "2026-02-05",
@@ -184,15 +184,15 @@
     },
     {
       "date": "2026-02-06",
-      "sox_market_cap_trn": 10.3173,
+      "sox_market_cap_trn": 10.3172,
       "us_market_cap_trn": 67.9809,
-      "share_pct": 15.1767
+      "share_pct": 15.1766
     },
     {
       "date": "2026-02-09",
       "sox_market_cap_trn": 10.5342,
       "us_market_cap_trn": 68.3158,
-      "share_pct": 15.4199
+      "share_pct": 15.4198
     },
     {
       "date": "2026-02-10",
@@ -204,73 +204,73 @@
       "date": "2026-02-11",
       "sox_market_cap_trn": 10.6569,
       "us_market_cap_trn": 68.0825,
-      "share_pct": 15.653
+      "share_pct": 15.6529
     },
     {
       "date": "2026-02-12",
-      "sox_market_cap_trn": 10.4318,
+      "sox_market_cap_trn": 10.4317,
       "us_market_cap_trn": 66.9939,
       "share_pct": 15.5712
     },
     {
       "date": "2026-02-13",
-      "sox_market_cap_trn": 10.3348,
+      "sox_market_cap_trn": 10.3347,
       "us_market_cap_trn": 67.1215,
       "share_pct": 15.3971
     },
     {
       "date": "2026-02-17",
-      "sox_market_cap_trn": 10.4207,
+      "sox_market_cap_trn": 10.4206,
       "us_market_cap_trn": 67.2053,
-      "share_pct": 15.5058
+      "share_pct": 15.5057
     },
     {
       "date": "2026-02-18",
-      "sox_market_cap_trn": 10.5173,
+      "sox_market_cap_trn": 10.5172,
       "us_market_cap_trn": 67.5562,
-      "share_pct": 15.5682
+      "share_pct": 15.5681
     },
     {
       "date": "2026-02-19",
-      "sox_market_cap_trn": 10.4867,
+      "sox_market_cap_trn": 10.4866,
       "us_market_cap_trn": 67.4286,
-      "share_pct": 15.5523
+      "share_pct": 15.5522
     },
     {
       "date": "2026-02-20",
-      "sox_market_cap_trn": 10.6043,
+      "sox_market_cap_trn": 10.6042,
       "us_market_cap_trn": 67.8433,
       "share_pct": 15.6305
     },
     {
       "date": "2026-02-23",
-      "sox_market_cap_trn": 10.6236,
+      "sox_market_cap_trn": 10.6235,
       "us_market_cap_trn": 67.0836,
-      "share_pct": 15.8363
+      "share_pct": 15.8362
     },
     {
       "date": "2026-02-24",
       "sox_market_cap_trn": 10.7465,
       "us_market_cap_trn": 67.6319,
-      "share_pct": 15.8898
+      "share_pct": 15.8897
     },
     {
       "date": "2026-02-25",
-      "sox_market_cap_trn": 10.9082,
+      "sox_market_cap_trn": 10.9081,
       "us_market_cap_trn": 68.1543,
-      "share_pct": 16.0051
+      "share_pct": 16.005
     },
     {
       "date": "2026-02-26",
       "sox_market_cap_trn": 10.4622,
       "us_market_cap_trn": 67.8872,
-      "share_pct": 15.4112
+      "share_pct": 15.4111
     },
     {
       "date": "2026-02-27",
       "sox_market_cap_trn": 10.2336,
       "us_market_cap_trn": 67.5442,
-      "share_pct": 15.151
+      "share_pct": 15.1509
     },
     {
       "date": "2026-03-02",
@@ -286,13 +286,13 @@
     },
     {
       "date": "2026-03-04",
-      "sox_market_cap_trn": 10.1961,
+      "sox_market_cap_trn": 10.196,
       "us_market_cap_trn": 67.4286,
-      "share_pct": 15.1213
+      "share_pct": 15.1212
     },
     {
       "date": "2026-03-05",
-      "sox_market_cap_trn": 10.2038,
+      "sox_market_cap_trn": 10.2037,
       "us_market_cap_trn": 66.9919,
       "share_pct": 15.2313
     },
@@ -300,43 +300,43 @@
       "date": "2026-03-06",
       "sox_market_cap_trn": 9.8741,
       "us_market_cap_trn": 66.0768,
-      "share_pct": 14.9434
+      "share_pct": 14.9433
     },
     {
       "date": "2026-03-09",
-      "sox_market_cap_trn": 10.21,
+      "sox_market_cap_trn": 10.2099,
       "us_market_cap_trn": 66.649,
-      "share_pct": 15.319
+      "share_pct": 15.3189
     },
     {
       "date": "2026-03-10",
-      "sox_market_cap_trn": 10.2688,
+      "sox_market_cap_trn": 10.2687,
       "us_market_cap_trn": 66.4955,
-      "share_pct": 15.4428
+      "share_pct": 15.4427
     },
     {
       "date": "2026-03-11",
-      "sox_market_cap_trn": 10.3467,
+      "sox_market_cap_trn": 10.3466,
       "us_market_cap_trn": 66.4416,
-      "share_pct": 15.5726
+      "share_pct": 15.5725
     },
     {
       "date": "2026-03-12",
       "sox_market_cap_trn": 10.0683,
       "us_market_cap_trn": 65.3809,
-      "share_pct": 15.3995
+      "share_pct": 15.3994
     },
     {
       "date": "2026-03-13",
       "sox_market_cap_trn": 9.9521,
       "us_market_cap_trn": 65.024,
-      "share_pct": 15.3053
+      "share_pct": 15.3052
     },
     {
       "date": "2026-03-16",
       "sox_market_cap_trn": 10.0939,
       "us_market_cap_trn": 65.688,
-      "share_pct": 15.3665
+      "share_pct": 15.3664
     },
     {
       "date": "2026-03-17",
@@ -354,11 +354,11 @@
       "date": "2026-03-19",
       "sox_market_cap_trn": 9.9989,
       "us_market_cap_trn": 64.8865,
-      "share_pct": 15.4099
+      "share_pct": 15.4098
     },
     {
       "date": "2026-03-20",
-      "sox_market_cap_trn": 9.7126,
+      "sox_market_cap_trn": 9.7125,
       "us_market_cap_trn": 63.8696,
       "share_pct": 15.2068
     },
@@ -366,17 +366,17 @@
       "date": "2026-03-23",
       "sox_market_cap_trn": 9.9361,
       "us_market_cap_trn": 64.6372,
-      "share_pct": 15.3721
+      "share_pct": 15.372
     },
     {
       "date": "2026-03-24",
       "sox_market_cap_trn": 9.982,
       "us_market_cap_trn": 64.4359,
-      "share_pct": 15.4914
+      "share_pct": 15.4913
     },
     {
       "date": "2026-03-25",
-      "sox_market_cap_trn": 10.1285,
+      "sox_market_cap_trn": 10.1284,
       "us_market_cap_trn": 64.8287,
       "share_pct": 15.6234
     },
@@ -384,7 +384,7 @@
       "date": "2026-03-26",
       "sox_market_cap_trn": 9.6637,
       "us_market_cap_trn": 63.7121,
-      "share_pct": 15.1678
+      "share_pct": 15.1677
     },
     {
       "date": "2026-03-27",
@@ -394,19 +394,19 @@
     },
     {
       "date": "2026-03-30",
-      "sox_market_cap_trn": 9.2483,
+      "sox_market_cap_trn": 9.2482,
       "us_market_cap_trn": 62.3377,
-      "share_pct": 14.8358
+      "share_pct": 14.8357
     },
     {
       "date": "2026-03-31",
-      "sox_market_cap_trn": 9.8018,
+      "sox_market_cap_trn": 9.8017,
       "us_market_cap_trn": 64.1637,
-      "share_pct": 15.2762
+      "share_pct": 15.2761
     },
     {
       "date": "2026-04-01",
-      "sox_market_cap_trn": 9.9482,
+      "sox_market_cap_trn": 9.9481,
       "us_market_cap_trn": 64.6497,
       "share_pct": 15.3878
     },
@@ -414,13 +414,13 @@
       "date": "2026-04-02",
       "sox_market_cap_trn": 9.9641,
       "us_market_cap_trn": 64.7538,
-      "share_pct": 15.3877
+      "share_pct": 15.3876
     },
     {
       "date": "2026-04-06",
-      "sox_market_cap_trn": 9.9989,
+      "sox_market_cap_trn": 9.9988,
       "us_market_cap_trn": 65.0438,
-      "share_pct": 15.3726
+      "share_pct": 15.3725
     },
     {
       "date": "2026-04-07",
@@ -438,7 +438,7 @@
       "date": "2026-04-09",
       "sox_market_cap_trn": 10.7435,
       "us_market_cap_trn": 67.0918,
-      "share_pct": 16.0132
+      "share_pct": 16.0131
     },
     {
       "date": "2026-04-10",
@@ -450,25 +450,25 @@
       "date": "2026-04-13",
       "sox_market_cap_trn": 11.1131,
       "us_market_cap_trn": 67.7358,
-      "share_pct": 16.4066
+      "share_pct": 16.4065
     },
     {
       "date": "2026-04-14",
-      "sox_market_cap_trn": 11.3731,
+      "sox_market_cap_trn": 11.373,
       "us_market_cap_trn": 68.5319,
       "share_pct": 16.5953
     },
     {
       "date": "2026-04-15",
-      "sox_market_cap_trn": 11.4525,
+      "sox_market_cap_trn": 11.4524,
       "us_market_cap_trn": 69.0499,
-      "share_pct": 16.5858
+      "share_pct": 16.5857
     },
     {
       "date": "2026-04-16",
       "sox_market_cap_trn": 11.3896,
       "us_market_cap_trn": 69.2079,
-      "share_pct": 16.4571
+      "share_pct": 16.457
     },
     {
       "date": "2026-04-17",
@@ -478,33 +478,33 @@
     },
     {
       "date": "2026-04-20",
-      "sox_market_cap_trn": 11.5924,
+      "sox_market_cap_trn": 11.5923,
       "us_market_cap_trn": 70.0439,
       "share_pct": 16.5501
     },
     {
       "date": "2026-04-21",
-      "sox_market_cap_trn": 11.5594,
+      "sox_market_cap_trn": 11.5593,
       "us_market_cap_trn": 69.5699,
-      "share_pct": 16.6155
+      "share_pct": 16.6154
     },
     {
       "date": "2026-04-22",
       "sox_market_cap_trn": 11.8657,
       "us_market_cap_trn": 70.2459,
-      "share_pct": 16.8917
+      "share_pct": 16.8916
     },
     {
       "date": "2026-04-23",
       "sox_market_cap_trn": 11.8185,
       "us_market_cap_trn": 69.9619,
-      "share_pct": 16.8928
+      "share_pct": 16.8927
     },
     {
       "date": "2026-04-24",
       "sox_market_cap_trn": 12.3279,
       "us_market_cap_trn": 70.4119,
-      "share_pct": 17.5083
+      "share_pct": 17.5082
     },
     {
       "date": "2026-04-27",
@@ -514,33 +514,33 @@
     },
     {
       "date": "2026-04-28",
-      "sox_market_cap_trn": 12.1048,
+      "sox_market_cap_trn": 12.1047,
       "us_market_cap_trn": 70.1279,
       "share_pct": 17.261
     },
     {
       "date": "2026-04-29",
-      "sox_market_cap_trn": 12.1439,
+      "sox_market_cap_trn": 12.1438,
       "us_market_cap_trn": 70.0439,
-      "share_pct": 17.3376
+      "share_pct": 17.3375
     },
     {
       "date": "2026-04-30",
-      "sox_market_cap_trn": 12.0718,
+      "sox_market_cap_trn": 12.0717,
       "us_market_cap_trn": 70.8379,
-      "share_pct": 17.0414
+      "share_pct": 17.0413
     },
     {
       "date": "2026-05-01",
-      "sox_market_cap_trn": 12.0878,
+      "sox_market_cap_trn": 12.0877,
       "us_market_cap_trn": 71.0599,
-      "share_pct": 17.0107
+      "share_pct": 17.0106
     },
     {
       "date": "2026-05-04",
       "sox_market_cap_trn": 12.0346,
       "us_market_cap_trn": 70.7979,
-      "share_pct": 16.9986
+      "share_pct": 16.9985
     },
     {
       "date": "2026-05-05",
@@ -552,29 +552,29 @@
       "date": "2026-05-06",
       "sox_market_cap_trn": 12.7414,
       "us_market_cap_trn": 72.374,
-      "share_pct": 17.605
+      "share_pct": 17.6049
     },
     {
       "date": "2026-05-07",
-      "sox_market_cap_trn": 12.628,
+      "sox_market_cap_trn": 12.6279,
       "us_market_cap_trn": 72.042,
-      "share_pct": 17.5287
+      "share_pct": 17.5286
     },
     {
       "date": "2026-05-08",
-      "sox_market_cap_trn": 12.9769,
+      "sox_market_cap_trn": 12.9768,
       "us_market_cap_trn": 72.576,
-      "share_pct": 17.8804
+      "share_pct": 17.8803
     },
     {
       "date": "2026-05-11",
-      "sox_market_cap_trn": 13.1054,
+      "sox_market_cap_trn": 13.1053,
       "us_market_cap_trn": 72.728,
-      "share_pct": 18.0198
+      "share_pct": 18.0197
     },
     {
       "date": "2026-05-12",
-      "sox_market_cap_trn": 12.9144,
+      "sox_market_cap_trn": 12.9143,
       "us_market_cap_trn": 72.56,
       "share_pct": 17.7982
     },
@@ -586,135 +586,135 @@
     },
     {
       "date": "2026-05-14",
-      "sox_market_cap_trn": 13.5648,
+      "sox_market_cap_trn": 13.5647,
       "us_market_cap_trn": 73.482,
       "share_pct": 18.46
     },
     {
       "date": "2026-05-15",
-      "sox_market_cap_trn": 13.027,
+      "sox_market_cap_trn": 13.0269,
       "us_market_cap_trn": 72.55,
-      "share_pct": 17.9559
+      "share_pct": 17.9558
     },
     {
       "date": "2026-05-18",
       "sox_market_cap_trn": 12.823,
       "us_market_cap_trn": 72.474,
-      "share_pct": 17.6933
+      "share_pct": 17.6932
     },
     {
       "date": "2026-05-19",
-      "sox_market_cap_trn": 12.7247,
+      "sox_market_cap_trn": 12.7246,
       "us_market_cap_trn": 72.014,
-      "share_pct": 17.6698
+      "share_pct": 17.6697
     },
     {
       "date": "2026-05-20",
       "sox_market_cap_trn": 13.0837,
       "us_market_cap_trn": 72.84,
-      "share_pct": 17.9623
+      "share_pct": 17.9622
     },
     {
       "date": "2026-05-21",
-      "sox_market_cap_trn": 13.093,
+      "sox_market_cap_trn": 13.0929,
       "us_market_cap_trn": 73.02,
-      "share_pct": 17.9307
+      "share_pct": 17.9306
     },
     {
       "date": "2026-05-22",
       "sox_market_cap_trn": 13.084,
       "us_market_cap_trn": 73.36,
-      "share_pct": 17.8354
+      "share_pct": 17.8353
     },
     {
       "date": "2026-05-26",
       "sox_market_cap_trn": 13.3026,
       "us_market_cap_trn": 73.894,
-      "share_pct": 18.0023
+      "share_pct": 18.0022
     },
     {
       "date": "2026-05-27",
-      "sox_market_cap_trn": 13.1996,
+      "sox_market_cap_trn": 13.1995,
       "us_market_cap_trn": 73.874,
-      "share_pct": 17.8677
+      "share_pct": 17.8676
     },
     {
       "date": "2026-05-28",
       "sox_market_cap_trn": 13.3195,
       "us_market_cap_trn": 74.334,
-      "share_pct": 17.9185
+      "share_pct": 17.9184
     },
     {
       "date": "2026-05-29",
       "sox_market_cap_trn": 13.2838,
       "us_market_cap_trn": 74.51,
-      "share_pct": 17.8282
+      "share_pct": 17.8281
     },
     {
       "date": "2026-06-01",
       "sox_market_cap_trn": 13.7673,
       "us_market_cap_trn": 74.682,
-      "share_pct": 18.4346
+      "share_pct": 18.4345
     },
     {
       "date": "2026-06-02",
       "sox_market_cap_trn": 14.0968,
       "us_market_cap_trn": 74.874,
-      "share_pct": 18.8274
+      "share_pct": 18.8273
     },
     {
       "date": "2026-06-03",
-      "sox_market_cap_trn": 13.9344,
+      "sox_market_cap_trn": 13.9343,
       "us_market_cap_trn": 74.332,
-      "share_pct": 18.7461
+      "share_pct": 18.746
     },
     {
       "date": "2026-06-04",
-      "sox_market_cap_trn": 13.7702,
+      "sox_market_cap_trn": 13.7701,
       "us_market_cap_trn": 74.678,
-      "share_pct": 18.4394
+      "share_pct": 18.4393
     },
     {
       "date": "2026-06-05",
-      "sox_market_cap_trn": 12.7088,
+      "sox_market_cap_trn": 12.7087,
       "us_market_cap_trn": 72.678,
-      "share_pct": 17.4865
+      "share_pct": 17.4864
     },
     {
       "date": "2026-06-08",
       "sox_market_cap_trn": 13.1447,
       "us_market_cap_trn": 72.896,
-      "share_pct": 18.0322
+      "share_pct": 18.0321
     },
     {
       "date": "2026-06-09",
       "sox_market_cap_trn": 13.06,
       "us_market_cap_trn": 72.736,
-      "share_pct": 17.9554
+      "share_pct": 17.9553
     },
     {
       "date": "2026-06-10",
       "sox_market_cap_trn": 12.5796,
       "us_market_cap_trn": 71.6099,
-      "share_pct": 17.5669
+      "share_pct": 17.5668
     },
     {
       "date": "2026-06-11",
-      "sox_market_cap_trn": 13.1924,
+      "sox_market_cap_trn": 13.1923,
       "us_market_cap_trn": 72.862,
-      "share_pct": 18.106
+      "share_pct": 18.1059
     },
     {
       "date": "2026-06-12",
-      "sox_market_cap_trn": 13.3174,
+      "sox_market_cap_trn": 13.3173,
       "us_market_cap_trn": 73.274,
-      "share_pct": 18.1748
+      "share_pct": 18.1747
     },
     {
       "date": "2026-06-15",
       "sox_market_cap_trn": 13.8229,
       "us_market_cap_trn": 74.508,
-      "share_pct": 18.5523
+      "share_pct": 18.5522
     },
     {
       "date": "2026-06-16",
@@ -726,41 +726,41 @@
       "date": "2026-06-17",
       "sox_market_cap_trn": 13.4318,
       "us_market_cap_trn": 73.154,
-      "share_pct": 18.3611
+      "share_pct": 18.361
     },
     {
       "date": "2026-06-18",
       "sox_market_cap_trn": 14.09,
       "us_market_cap_trn": 74.0,
-      "share_pct": 19.0406
+      "share_pct": 19.0405
     },
     {
       "date": "2026-06-22",
       "sox_market_cap_trn": 14.0687,
       "us_market_cap_trn": 73.764,
-      "share_pct": 19.0726
+      "share_pct": 19.0725
     },
     {
       "date": "2026-06-23",
-      "sox_market_cap_trn": 13.2467,
+      "sox_market_cap_trn": 13.2466,
       "us_market_cap_trn": 72.742,
-      "share_pct": 18.2105
+      "share_pct": 18.2104
     },
     {
       "date": "2026-06-24",
-      "sox_market_cap_trn": 13.2276,
+      "sox_market_cap_trn": 13.2275,
       "us_market_cap_trn": 72.732,
-      "share_pct": 18.1868
+      "share_pct": 18.1867
     },
     {
       "date": "2026-06-25",
-      "sox_market_cap_trn": 13.2773,
+      "sox_market_cap_trn": 13.2772,
       "us_market_cap_trn": 72.798,
       "share_pct": 18.2385
     },
     {
       "date": "2026-06-26",
-      "sox_market_cap_trn": 12.8888,
+      "sox_market_cap_trn": 12.8887,
       "us_market_cap_trn": 72.6544,
       "share_pct": 17.7398
     },
@@ -792,17 +792,17 @@
       "date": "2026-07-06",
       "sox_market_cap_trn": 12.9793,
       "us_market_cap_trn": 74.5498,
-      "share_pct": 17.4103
+      "share_pct": 17.4102
     },
     {
       "date": "2026-07-07",
       "sox_market_cap_trn": 12.6407,
       "us_market_cap_trn": 74.1366,
-      "share_pct": 17.0506
+      "share_pct": 17.0505
     },
     {
       "date": "2026-07-08",
-      "sox_market_cap_trn": 12.9832,
+      "sox_market_cap_trn": 12.9831,
       "us_market_cap_trn": 73.8639,
       "share_pct": 17.5771
     },
@@ -810,53 +810,53 @@
       "date": "2026-07-09",
       "sox_market_cap_trn": 13.1573,
       "us_market_cap_trn": 74.5057,
-      "share_pct": 17.6595
+      "share_pct": 17.6594
     },
     {
       "date": "2026-07-10",
-      "sox_market_cap_trn": 13.3125,
+      "sox_market_cap_trn": 13.3124,
       "us_market_cap_trn": 74.7544,
-      "share_pct": 17.8083
+      "share_pct": 17.8082
     },
     {
       "date": "2026-07-13",
       "sox_market_cap_trn": 12.7769,
       "us_market_cap_trn": 74.1707,
-      "share_pct": 17.2264
+      "share_pct": 17.2263
     },
     {
       "date": "2026-07-14",
-      "sox_market_cap_trn": 13.081,
+      "sox_market_cap_trn": 13.0809,
       "us_market_cap_trn": 74.4475,
-      "share_pct": 17.5708
+      "share_pct": 17.5707
     },
     {
       "date": "2026-07-15",
-      "sox_market_cap_trn": 13.0401,
+      "sox_market_cap_trn": 13.04,
       "us_market_cap_trn": 74.7003,
       "share_pct": 17.4565
     },
     {
       "date": "2026-07-16",
-      "sox_market_cap_trn": 12.6135,
+      "sox_market_cap_trn": 12.6134,
       "us_market_cap_trn": 74.3312,
-      "share_pct": 16.9693
+      "share_pct": 16.9692
     },
     {
       "date": "2026-07-17",
-      "sox_market_cap_trn": 12.3546,
+      "sox_market_cap_trn": 12.3545,
       "us_market_cap_trn": 73.6151,
       "share_pct": 16.7826
     },
     {
       "date": "2026-07-20",
-      "sox_market_cap_trn": 12.4206,
+      "sox_market_cap_trn": 12.4205,
       "us_market_cap_trn": 73.4627,
-      "share_pct": 16.9073
+      "share_pct": 16.9072
     },
     {
       "date": "2026-07-21",
-      "sox_market_cap_trn": 12.8698,
+      "sox_market_cap_trn": 12.8697,
       "us_market_cap_trn": 74.1046,
       "share_pct": 17.367
     },
@@ -864,11 +864,11 @@
       "date": "2026-07-22",
       "sox_market_cap_trn": 12.9925,
       "us_market_cap_trn": 73.9882,
-      "share_pct": 17.5603
+      "share_pct": 17.5602
     },
     {
       "date": "2026-07-23",
-      "sox_market_cap_trn": 12.8447,
+      "sox_market_cap_trn": 12.8446,
       "us_market_cap_trn": 73.1498,
       "share_pct": 17.5594
     },
@@ -876,7 +876,7 @@
       "date": "2026-07-24",
       "sox_market_cap_trn": 12.5001,
       "us_market_cap_trn": 73.1719,
-      "share_pct": 17.0833
+      "share_pct": 17.0832
     },
     {
       "date": "2026-07-27",
@@ -886,15 +886,21 @@
     },
     {
       "date": "2026-07-28",
-      "sox_market_cap_trn": 11.9099,
+      "sox_market_cap_trn": 11.9098,
       "us_market_cap_trn": 73.4105,
-      "share_pct": 16.2237
+      "share_pct": 16.2236
     },
     {
       "date": "2026-07-29",
-      "sox_market_cap_trn": 11.4133,
+      "sox_market_cap_trn": 11.4132,
       "us_market_cap_trn": 72.2933,
-      "share_pct": 15.7875
+      "share_pct": 15.7874
+    },
+    {
+      "date": "2026-07-30",
+      "sox_market_cap_trn": 12.0467,
+      "us_market_cap_trn": 73.4667,
+      "share_pct": 16.3976
     }
   ]
 }
