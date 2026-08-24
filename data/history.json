@@ -36,7 +36,7 @@
     "ENTG",
     "AMKR"
   ],
-  "updated_at": "2026-08-21T22:51:29.779623+00:00",
+  "updated_at": "2026-08-24T22:54:05.549983+00:00",
   "rows": [
     {
       "date": "2026-01-02",
@@ -997,6 +997,12 @@
       "sox_market_cap_trn": 13.4758,
       "us_market_cap_trn": 75.8677,
       "share_pct": 17.7622
+    },
+    {
+      "date": "2026-08-24",
+      "sox_market_cap_trn": 13.1331,
+      "us_market_cap_trn": 75.633,
+      "share_pct": 17.3643
     }
   ]
 }
