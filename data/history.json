@@ -36,7 +36,7 @@
     "ENTG",
     "AMKR"
   ],
-  "updated_at": "2026-10-08T02:11:31.093986+00:00",
+  "updated_at": "2026-10-09T02:25:24.498381+00:00",
   "rows": [
     {
       "date": "2026-01-02",
@@ -828,7 +828,7 @@
       "date": "2026-07-14",
       "sox_market_cap_trn": 15.3299,
       "us_market_cap_trn": 74.4475,
-      "share_pct": 20.5916
+      "share_pct": 20.5915
     },
     {
       "date": "2026-07-15",
@@ -1110,7 +1110,7 @@
       "date": "2026-09-18",
       "sox_market_cap_trn": 15.1877,
       "us_market_cap_trn": 75.304,
-      "share_pct": 20.1686
+      "share_pct": 20.1685
     },
     {
       "date": "2026-09-21",
@@ -1189,6 +1189,12 @@
       "sox_market_cap_trn": 16.4297,
       "us_market_cap_trn": 76.6202,
       "share_pct": 21.4431
+    },
+    {
+      "date": "2026-10-08",
+      "sox_market_cap_trn": 15.8851,
+      "us_market_cap_trn": 76.3246,
+      "share_pct": 20.8126
     }
   ]
 }
